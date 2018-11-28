@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nigeria Immigration service</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+<link rel="stylesheet" href="style/oop.css">
+</head>
+<body>
+
+
+		<!-- home -->
+		<section class="showDiv" id="homePage">
+		
+		<div class="heading">
+		
+			<img src=https://s22.postimg.cc/gvx0chtkh/landingpass.png alt="" class="passport_img">
+			<!--  
+			<marquee class="marq">
+             <img src="https://s22.postimg.cc/5nqyl3rv5/land.png" alt="" class="passport_img">   
+		</marquee>
+		 -->
+		</div>
+		
+		<div class="nav">
+			<div class="block">
+				<img src=https://s22.postimg.cc/5jkeuh7y9/logo.jpg class="logo">
+			</div>
+			<div class="block_1">
+				<li class="pass_office">NIGERIA</li>
+				<li class="pass_office">PASSPORT</li>
+				<li class="pass_office">OFFICE</li>
+			</div>
+			<div class="block_2">
+				<ul class="nav_ul">
+					
+					<li class="organ_li" id="organo"><a onclick="test1()" href="#" class="home-tab">Home</a></li>
+
+					<li class="organ_li" id ="organo"><a onclick="test2()" href="#" class="about-tab">About</a></li>
+					<li class="organ_li" id="organo"><a onclick="askQ()" href="#">FAQs</a></li>
+					<li class="organ_li" id="organo"><a onclick="messageMe()" href="#" class="contact-tab">Contact</a></li>
+			
+				</ul>
+			</div>
+		</div>
+
+		<!-- hidden sidebar -->
+		    <section class="sidebar-hidden">
+            <a class="menu-toggle rounded" href="#">
+            <i class="fa fa-bars"></i>
+
+           </a>
+            <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+              <li class="sidebar-nav-item">
+                <a class="home-tab" onclick="test1()" href="#">Home</a>
+             </li>
+                 <li class="sidebar-nav-item">
+             <a class="about-tab" onclick="test2()" href="#">About</a>
+            </li>
+            <li class="sidebar-nav-item">
+             <a onclick="askQ()" href="#">FAQs</a>
+           </li>
+            <li class="sidebar-nav-item">
+            <a class="contact-tab" onclick="messageMe()" href="#">Contact</a>
+           </li>
+           </ul>
+         </nav>
+         </section>
+
+		<div>
+			<h1 class="acquire">Acquiring your PASSPORT<br>has never been easier...</h1>
+		</div>
+		<div class="button">
+			<button class ="obt_pass">New Passport</button>
+			<button class ="obt_pass">Passport Renewal</button>
+		</div>
+	
+
+		<div class="well_p">
+			<img src= https://s33.postimg.cc/tce8xhh9b/about.png class="about">
+			<h1 class="welcome">Welcome To The Nigeria Passport Office</h1>
+			<p class="wel_text">We are saddled with the responsibility of issuing authentic passports to bonafide Nigerians<br> to be delivered to their doorsteps within 48 hours.</p>
+		</div>
+
+		<div class="container content">
+			<div class="row">
+				<div class="col-sm-4 online_app">
+					<img src= https://s15.postimg.cc/toa87qp2j/apply.png class="img_apply">
+					<p class="app_online"><strong> Apply online</strong></p>
+					<p class="kick">kick off your application<br>process from the comfort<br>of your home by providing <br>all the required details via <br>our well outlined and <br>simplified forms. </p>
+				</div>
+			
+				<div class ="col-sm-4 biometrics">
+					<img src= https://s33.postimg.cc/nzpejjo9r/biometrics_icon.png class="img_bio">
+					<p class="biometrics"><strong>Biometrics</strong></p>
+					<p class="visit"> Visit any of our offices across <br>the nation to capture your<br> biometric details;finger-prints,<br> photograph, signature and<br> other necessary information.
+					</p>
+				</div>
+
+					<div class ="col-sm-4 delivery">
+						<img src= https://s33.postimg.cc/b8b8d648v/home.png class="img_home">
+						<p><strong>Home deilvery</strong></p>
+						<p class="authentic">Have your Authentic Passport <br>delivered to your Home in<br> less than 4 hours after your<br> Biometric capturing.</p>
+					</div>
+				</div>
+			</div>
+			<div>
+					<img src= https://s33.postimg.cc/69npyoaqn/map.png class="map">
+					<h1 class="closer">We are closer to you now<br>
+					than ever before...</h1>
+				</div>
+				<div class="container_fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="reach">
+					<p>Address:NIS HQ<br> Shehu Shagari complex, Airport Road, Sauka, Abuja, FCT Nigeria.<br>
+					Hours of Operation:07:00-20:00 hours(GMT+1)</p>
+				</div>
+			</div>
+				<div class="col-sm-6">
+					<div class="complaint">
+					<address class="no_complain">Complaints/Enquiries:
+					<br>Phone, +234-708-0607-900<br><span>Email: nisservicom@nigeriaimmigration.gov.ng</span></address>
+				</div>
+			</div>
+			</div>
+		</div>
+				<div class="form" id="contact_form">
+					<div>
+						<input type="text" placeholder="Name..." class="name">
+					</div>
+					<div>
+						<input type="email" placeholder="Email address..." class="email">
+					</div>
+					<div>
+						<textarea placeholder="Your message..." class="message"></textarea>
+					</div>
+
+			  <input type="button" class="send" value="send"></input>
+				</div>
+			</div>
+        </section> 
+     
+        <!-- about -->
+        <section class = "removeDiv" id="aboutPage">
+
+         <div class="heading">
+			<img src="https://s22.postimg.cc/5nqyl3rv5/land.png" alt="" class="passport_img">
+		</div>
+		<div class="nav">
+			<div class="block">
+				<img src=https://s22.postimg.cc/5jkeuh7y9/logo.jpg class="logo">
+			</div>
+			<div class="block_1">
+				<li class="pass_office">NIGERIA</li>
+				<li class="pass_office">PASSPORT</li>
+				<li class="pass_office">OFFICE</li>
+			</div>
+			<div class="block_2">
+				<ul class="nav_ul">
+					
+			    <li class="organ_li" id="organo"><a onclick="test1()" href="#" class="home-tab">Home</a></li>
+
+					<li class="organ_li" id ="organo"><a onclick="test2()" href="#" class="about-tab">About</a></li>
+					<li class="organ_li" id="organo"><a onclick="askQ()" href="#">FAQs</a></li>
+					<li class="organ_li" id="organo"><a onclick="messageMe()" href="#" class="contact-tab">Contact</a></li>
+			
+				</ul>
+			</div>
+		</div>
+		
+		<!-- hidden sidebar -->
+		    <section class="sidebar-hidden">
+            <a class="menu-toggle1 rounded" href="#">
+            <i class="fa fa-bars"></i>
+           </a>
+            <nav id="sidebar-wrapper1">
+            <ul class="sidebar-nav">
+              <li class="sidebar-nav-item">
+                <a  onclick="test1()" class="home-tab"  href="#">Home</a>
+             </li>
+                 <li class="sidebar-nav-item">
+             <a onclick="test2()" class="about-tab"  href="#">About</a>
+            </li>
+            <li class="sidebar-nav-item">
+             <a onclick="askQ()" href="#">FAQs</a>
+           </li>
+            <li class="sidebar-nav-item">
+            <a onclick="messageMe()" class="contact-tab"  href="#">Contact</a>
+           </li>
+           </ul>
+         </nav>
+         </section>
+
+		<div>
+			<h1 class="acquire">Acquiring your PASSPORT<br>has never been easier...</h1>
+		</div>
+		<div class="button">
+			<button class ="obt_pass">New Passport</button>
+			<button class ="obt_pass">Passport Renewal</button>
+		</div>
+		<div class="breadcrumbs crum">
+           <h1> HISTORY</h1>
+       </div>
+
+          <div class="we">
+          	<div class="block">
+          	<p>The Nigeria Immigration Service (NIS) has witnessed series of changes since it was extracted from the Nigeria Police Force (NPF) in 1958. The Immigration Department as it was known then was entrusted with the core Immigration duties under the headship of the Chief Federal Immigration Officer (CFIO).The department in its embryo inherited the  Immigration Ordinance of 1958 for its operation. At inception the department had a narrow operational scope and maintained a low profile and simple approach in attaining the desired goals and objectives of the government. During this period, only the Visa and Business Sections were set up.On August 1st, 1963, Immigration Department came of age when it was formally established by an Act of Parliament (Cap 171, Laws of the Federation Nigeria). The head of the Department then was the Director of Immigration. Thus, the first set of Immigration officers were former NPF officers. It became a department under the control and supervision of the Federal Ministry of Internal Affairs (FMIA) as a Civil Service outfit.</p>
+          </div>
+      </div>
+
+        <div>
+          <img src= https://s33.postimg.cc/69npyoaqn/map.png class="map">
+          <h1 class="close">We are closer to you now<br>
+          than ever before...</h1>
+        </div>
+
+        <div class="container-fluid about_foot">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="reach">
+          <p>Address:NIS HQ<br> Shehu Shagari complex, Airport Road, Sauka, Abuja, FCT Nigeria.<br>
+          Hours of Operation:07:00-20:00 hours(GMT+1)</p>
+        </div>
+      </div>
+        <div class="col-sm-6">
+          <div class="complaint">
+          <address class="no_complain">Complaints/Enquiries:
+          <br>Phone, +234-708-0607-900<br><span>Email: nisservicom@nigeriaimmigration.gov.ng</span></address>
+        </div>
+      </div>
+    </div>
+</div>
+
+        <div class="form_2">
+          <div>
+            <input type="text" placeholder="Name..." class="name">
+          </div>
+          <div>
+            <input type="text" placeholder="Email address..." class="email">
+          </div>
+          <div>
+            <textarea placeholder="Your message..." class="message"></textarea>
+          </div>
+
+        <input type="button" class="send" value="send"></input>
+        </div>
+      </div>
+</section>
+
+<section class="contactRemove" id="contactPage">
+      <div class="heading">
+			<img src="https://s22.postimg.cc/5nqyl3rv5/land.png" alt="" class="passport_img">
+		</div>
+		<div class="nav">
+			<div class="block">
+				<img src=https://s22.postimg.cc/5jkeuh7y9/logo.jpg class="logo">
+			</div>
+			<div class="block_1">
+				<li class="pass_office">NIGERIA</li>
+				<li class="pass_office">PASSPORT</li>
+				<li class="pass_office">OFFICE</li>
+			</div>
+			<div class="block_2">
+				<ul class="nav_ul">
+					
+					<li class="organ_li" id="organo"><a onclick="test1()" href="#" class="home-tab">Home</a></li>
+
+					<li class="organ_li" id ="organo"><a onclick="test2()" href="#" class="about-tab">About</a></li>
+					<li class="organ_li" id="organo"><a onclick="askQ()" href="#">FAQs</a></li>
+			<li class="organ_li" id="organo"><a onclick="messageMe()" href="#" class="contact-tab">Contact</a></li>
+			
+				</ul>
+			</div>
+		</div>
+		
+		<!-- hidden sidebar -->
+		    <section class="sidebar-hidden">
+            <a class="menu-toggle2 rounded" href="#">
+            <i class="fa fa-bars"></i>
+           </a>
+            <nav id="sidebar-wrapper2">
+            <ul class="sidebar-nav">
+              <li class="sidebar-nav-item">
+                <a class="home-tab" onclick="test1()" href="#">Home</a>
+             </li>
+                 <li class="sidebar-nav-item">
+             <a class="about-tab" onclick="test2()" href="#">About</a>
+            </li>
+            <li class="sidebar-nav-item">
+             <a onclick="askQ()" href="">FAQs</a>
+           </li>
+            <li class="sidebar-nav-item">
+            <a class="contact-tab" onclick="messageMe()" href="#">Contact</a>
+           </li>
+           </ul>
+         </nav>
+         </section>
+		<div>
+			<h1 class="acquire">Acquiring your PASSPORT<br>has never been easier...</h1>
+		</div>
+		<div class="button">
+			<button class ="obt_pass">New Passport</button>
+			<button class ="obt_pass">Passport Renewal</button>
+		</div>
+		<div class="breadcrumbs crumb">
+           <h1> CONTACT</h1>
+       </div>
+       <div>
+					<img src= https://s33.postimg.cc/69npyoaqn/map.png class="map">
+					<h1 class="closest">We are closer to you now<br>
+					than ever before...</h1>
+				</div>
+				<div class="container_fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="reach">
+					<p>Address:NIS HQ<br> Shehu Shagari complex, Airport Road, Sauka, Abuja, FCT Nigeria.<br>
+					Hours of Operation:07:00-20:00 hours(GMT+1)</p>
+				</div>
+			</div>
+				<div class="col-sm-6">
+					<div class="complaint">
+					<address class="no_complain">Complaints/Enquiries:
+					<br>Phone, +234-708-0607-900<br><span>Email: nisservicom@nigeriaimmigration.gov.ng</span></address>
+				</div>
+			</div>
+			</div>
+		</div>
+				<div class="form_3">
+					<div>
+						<input type="text"  class="First name" placeholder="First Name..."required>
+					</div>
+					<div>
+						<input type="text" class="email" placeholder="Last name" required>
+					</div>
+					<div>
+						<input type="text" class="email" placeholder="Email address..."required>
+					</div>
+					<div>
+						<textarea class="message" placeholder="Your message..."required></textarea>
+					</div>
+
+			  <input type="button" class="send" value="send"></input>
+				</div>
+			</div>
+		</section>
+				
+   <!-- ask section -->
+      <section class="aqRemove" id="askPage">
+       <div class="heading">
+			<img src="https://s22.postimg.cc/gvx0chtkh/landingpass.png" alt="" class="passport_img">
+		</div>
+		<div class="nav">
+			<div class="block">
+				<img src=https://s22.postimg.cc/5jkeuh7y9/logo.jpg class="logo">
+			</div>
+			<div class="block_1">
+				<li class="pass_office">NIGERIA</li>
+				<li class="pass_office">PASSPORT</li>
+				<li class="pass_office">OFFICE</li>
+			</div>
+			<div class="block_2">
+				<ul class="nav_ul">
+					
+					<li class="organ_li" id="organo"><a onclick="test1()" href="#" class="home-tab">Home</a></li>
+
+					<li class="organ_li" id ="organo"><a onclick="test2()" href="#" class="about-tab">About</a></li>
+					<li class="organ_li" id="organo"><a onclick="askQ()" href="#">FAQs</a></li>
+
+			<li class="organ_li" id="organo"><a onclick="messageMe()" href="#" class="contact-tab">Contact</a></li>
+			
+				</ul>
+			</div>
+		</div>
+		
+		<div>
+            <!-- hidden sidebar -->
+		    <section class="sidebar-hidden">
+            <a class="menu-toggle3 rounded" href="#">
+            <i class="fa fa-bars"></i>
+           </a>
+            <nav id="sidebar-wrapper3">
+            <ul class="sidebar-nav">
+              <li class="sidebar-nav-item">
+                <a class="home-tab" onclick="test1()" href="#">Home</a>
+             </li>
+                 <li class="sidebar-nav-item">
+             <a class="about-tab" onclick="test2()" href="#">About</a>
+            </li>
+            <li class="sidebar-nav-item">
+             <a onclick="askQ()" href="">FAQs</a>
+           </li>
+            <li class="sidebar-nav-item">
+            <a class="contact-tab" onclick="messageMe()" href="#">Contact</a>
+           </li>
+           </ul>
+         </nav>
+         </section>
+
+			<h1 class="acquire">Acquiring your PASSPORT<br>has never been easier...</h1>
+		</div>
+		<div class="button">
+			<button class ="obt_pass">New Passport</button>
+			<button class ="obt_pass">Passport Renewal</button>
+		</div>
+		<div class="breadcrumbs crumb">
+           <h1> FAQS</h1>
+       </div>
+       <div>
+					<img src= https://s33.postimg.cc/69npyoaqn/map.png class="map">
+					<h1 class="closeup">We are closer to you now<br>
+					than ever before...</h1>
+				</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-4">
+<div class="panel panel-default def">    
+	<div class="panel-heading"> What is Visa approval letter?
+	</div>    
+	<div class="panel-body p-content"> Visa approval Letter is a document (approved by the Nigeria Immigration Service Headquarters) that allows a traveller to proceed to Nigeria to pick up entry visa at the point of entry.</div> 
+</div>  
+<div class="panel panel-default def">   
+ <div class="panel-heading">       
+ 	<h3 class="panel-title">What is Visa on arrival? </h3> 
+ </div>
+<div class="panel-body p-content"> Nigeria Visa on arrival is a class of short visit visa issued at the port of entry. The facility is available to frequently travelled High Net Worth Investors and Intending Visitors who may not be able to obtain visa at the Nigerian Missions/Embassies in their countries of residence due to the absence of a Nigerian mission in those countries or exigencies of urgent business travels.</div>
+</div>
+
+<div class="panel panel-default def">    
+	<div class="panel-heading"> How long does it take to get the approval letter?
+	</div>    
+	<div class="panel-body p-content"> Visa Approval Letter normally takes 2 (48 hours) working days to process and emailed to you and your representative/contact who applied on your behalf in Nigeria.</div> 
+</div>  
+<div class="panel panel-default def">   
+ <div class="panel-heading">       
+ 	<h3 class="panel-title"> How do I receive my Visa approval letter?</h3> 
+ </div>
+<div class="panel-body p-content"> Through email or your representative/contact in Nigeria.</div>
+</div>
+</div>
+</div>
+</div>
+
+		<div class="container_fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="reach_out">
+					<p>Address:NIS HQ<br> Shehu Shagari complex, Airport Road, Sauka, Abuja, FCT Nigeria.<br>
+					Hours of Operation:07:00-20:00 hours(GMT+1)</p>
+				</div>
+			</div>
+				<div class="col-sm-6">
+					<div class="complaint">
+					<address class="yes_complain">Complaints/Enquiries:
+					<br>Phone, +234-708-0607-900<br><span>Email: nisservicom@nigeriaimmigration.gov.ng</span></address>
+				</div>
+			</div>
+			</div>
+		</div>
+				
+   </section>
+
+
+
+
+       <script src="lib/jquery-3.3.1.min.js" type="text/javascript"></script>
+
+         <script src="nis.js" type="text/javascript"></script>
+
+		</body>
+	</html>
+</body>
+</html>
